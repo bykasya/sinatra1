@@ -45,3 +45,6 @@ get "/greet" do
     "Hello #{session[:name]}"
 end
 
+get "/erbtest" do
+    erb :hello
+end

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+      <p>This is the database:</p>
+  <% @results.each do |row|  %>
+    <% row.each do |element|  %>
+      <%= element %><%= "|" %>
+    <% end %>
+    <br>
+  <% end %>
+
+    </body>
+</html>
